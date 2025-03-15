@@ -7,49 +7,39 @@ HOW TO MAKE :
 
 Component's needed:
 
-1. Jumper wires/hookup wires
-(Jumper wire's are wires that have pins on the end usually they are messy.Hookup wires are wires that you cut sna strip they are more cleen thought.)
-I say to use jumper wires it is a mess but the beadboard connections dont end it in my oppinon.
+1. Jumper wire or hookup wires: Jumper wire's are wires that have pins on the end and usually they are messy. Hookup wires are wires that you cut and strip and they are more clean though.
+I recommend to use jumper wires because it is easier to connect them unlike hookup wires.
+
+2. Ardunio mega 2560 R3: This is another arudnio board that I recommend using becuase it has more pins and it can hold more memory.
+
+3. 16x2 8-bit LCD Display: This is a specific type of display that has 2 line's with 16 digit's where you can insert most characters.
+
+4. Resistors: A resistor is a peice of metal that takes some of the current and reduces it in the process it makes heat. For this project you will need a 1K Ω and one 220 Ω.
+
+8. Breadboard: A breadboard is a small board where you can connect pins or sensors to.
+
+9. Downloading wire: A wire that is used to connect to your computer on one end and other to arundio board through USB.
 
 
-2. Ardunio mega 2560 R3
-(This is another arudnio board I am using this becuase it has more pins it can hold more code)
+Steps: 
 
+1.Connect the pins of the 4x4 keypad to pins 9-2 using jumper wires.
 
-3. 16x2 8-bit LCD Display
-(This is a spefic type fo display that I am using right now.It has 2 line's with 16 digit's whrer you cna pace most carecters.)
+2. Using the breadbaord, connect the 5v of the ardunio directly with a jumper wire to the plus (red) side of the power rails.
 
-4.resistors
-you will need 2 risistors one 1K Ω and one 220 Ω risistor.
+3. Connect ground the same way to the minus (blue) side of the power rials.
 
-5.breadboard
-(a breadboard is a mall area that you can connect pins or sensors to)
+4. Connect the LCD to the breadboard at any place you want
 
-6.Donloding wire
-(ot donlode the code to the arundio throught usb)
+5. Connect pins VSS, RW, and K to the minus (blue) power rail.
 
+6. Connect VDD directly to the plus (red) power rail.
 
-Steps:first bring all the componets together
+7. Connect V0 with the 1K Ω resistor to the minus  (blue) power rail.
 
-1.Connect the pins of the 4x4 keypad to pins 9-2 using jumper wires
+8. Connect RS to pin 22.
 
-
-2. get a breadbaord and connect the 5v of the ardunio directly with a jumper wire to the plus (red) side of the power rails.
-Then also connect ground the same way to The minus (blue) sid eof the power rials.
-
-3.connect the LCD to the breadboard at any plce you want
-
-4.connect pins VSS, RW, and K to the minus (blue) power rail.
-
-5.Connect VDD directly to the plus  (red) power rail.
-
-6.Connect V0 with the 1K Ω resistor to the minus  (blue) power rail.
-
-7.Connect RS to pin 22
-
-8.Connect the pins E to D7 to pins 23 - 31 in the layout below
-
-
+9. Connect the pins E to D7 to pins 23 - 31 in the layout below.
 
 Pin on LCD          Pin on Ardunio
 
@@ -64,25 +54,23 @@ D6                  30
 D7                  31
 
 
+10. Connect A with the 220 Ω resistor to the plus  (red) power rail.
 
-9. Connect A with the 220 Ω resistor to the plus  (red) power rail
-10. Lastely connect K to minus  (blue) power rail.
+11. Connect K to minus  (blue) power rail.
 
+12. Download ardunio IDE from https://www.arduino.cc/en/software
 
+13. Open the arudnio IDE and then click controle + o. or open a file using the file bar.
 
-11.Downldoe ardunio IDE From https://www.arduino.cc/en/software
+14. Download the file on the github page called ardunio_clalcultor.ino
 
-12.Open the arudnio IDE and then click controle + o. or open a file using the file bar.
+15. Open it on arudnio IDE.
 
-13.Downldoe the file on the github page called ardunio_clalcultor.ino
+16. Plug in the USB to the device you are using and plug the other end into the arundio.
 
-14.Open it on arudnio IDE
+17. Click the checkmark in the left corner that will verfy and download the code after it is all downloded and everything is woring the LCD should say "Calc Ready".
 
-15.Plug in the usb to the devide you are using and plug the other end into the arundio.
-
-16.The last step is to click the checkmark in the left corner that will verfy and download the code after it is all downloded and everything is woring the LCD should say "Calc Ready"
-
-17.A bonus step si to downlode the pdf beucase that is the key for the calculator.You can use it to knwo wat buttons do what.
+Bonus: Download the pdf because that is the key for the calculator. You can use it to know which buttons do what.
 
 
-By and thank you
+Bye and thank you
