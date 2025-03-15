@@ -9,7 +9,7 @@ Component's needed:
 
 1. Jumper wires/hookup wires
 (Jumper wire's are wires that have pins on the end usually they are messy.Hookup wires are wires that you cut sna strip they are more cleen thought.)
-I say to use jumper wires it is a mess but the beadboard connections dont ned it in my oppinon.
+I say to use jumper wires it is a mess but the beadboard connections dont end it in my oppinon.
 
 
 2. Ardunio mega 2560 R3
@@ -19,7 +19,7 @@ I say to use jumper wires it is a mess but the beadboard connections dont ned it
 3. 16x2 8-bit LCD Display
 (This is a spefic type fo display that I am using right now.It has 2 line's with 16 digit's whrer you cna pace most carecters.)
 
-4.Resistors
+4.resistors
 you will need 2 risistors one 1K Ω and one 220 Ω risistor.
 
 5.breadboard
@@ -72,17 +72,17 @@ D7                  31
 
 11.Downldoe ardunio IDE From https://www.arduino.cc/en/software
 
-12.Open teh arudnio IDE and then click controle + o. or open a file using the file bar.
+12.Open the arudnio IDE and then click controle + o. or open a file using the file bar.
 
 13.Downldoe the file on the github page called ardunio_clalcultor.ino
 
 14.Open it on arudnio IDE
 
-15.Plug in the usb to the devide you are using and plug the other ned into the arundio.
+15.Plug in the usb to the devide you are using and plug the other end into the arundio.
 
-16.The last step is to click the checkmark in the left corner that will verfy adn donldoe the code after it is all downloded and everything is woring the LCD should say "Calc Ready"
+16.The last step is to click the checkmark in the left corner that will verfy and download the code after it is all downloded and everything is woring the LCD should say "Calc Ready"
 
-17.A bonus sttep si to downlode the pdf beucase that is the key for the calculator.You can use it to knwo wat buttons do what.
+17.A bonus step si to downlode the pdf beucase that is the key for the calculator.You can use it to knwo wat buttons do what.
 
 
 By and thank you
