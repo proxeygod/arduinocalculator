@@ -1,4 +1,4 @@
-# arduniocalculator
+# arduinocalculator
 this is an Arduino calculator that uses the Arduino mega 2560 r3
 This is my project on making a calculor with arundio 
 
